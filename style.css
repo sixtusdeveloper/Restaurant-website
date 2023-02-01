@@ -130,7 +130,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #0a0a23;
+  background: #0d0d6edc;
   padding: 1rem 9%;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
@@ -145,7 +145,7 @@ header .logo {
 }
 
 header .logo .logo-img {
-  width: 130px !important;
+  width: 180px !important;
   height: 100% !important;
   position: relative !important;
   object-fit: contain !important;
