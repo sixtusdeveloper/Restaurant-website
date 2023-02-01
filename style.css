@@ -157,11 +157,11 @@ header .logo {
 }
 
 header .logo .logo-img {
-  width: 180px;
-  height: 100%;
-  position: relative;
-  object-fit: cover;
-  mix-blend-mode: difference;
+  width: 180px !important;
+  height: 100% !important;
+  position: relative !important;
+  object-fit: cover !important;
+  mix-blend-mode: difference !important;
 }
 
 .sticky_logo {
