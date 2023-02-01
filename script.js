@@ -17,7 +17,7 @@ window.onscroll = () => {
     document.querySelector('#scroll-top').classList.add('active')
     stickyNavbar.classList.remove('active')
     stickyNavbar.classList.add('sticky_navbar')
-    if ((!stickyLogo).style.mixBlendMode === 'difference') {
+    if (((!stickyLogo).style.mixBlendMode = 'difference')) {
       stickyLogo.style.mixBlendMode = 'difference'
     } else {
       stickyLogo.style.mixBlendMode = 'difference'
