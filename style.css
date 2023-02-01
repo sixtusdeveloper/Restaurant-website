@@ -130,7 +130,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #04045ace;
+  background: hsla(240, 91%, 18%, 0.897);
   padding: 1rem 9%;
 }
 
