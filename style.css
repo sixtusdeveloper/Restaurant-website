@@ -89,8 +89,8 @@ p {
 .btn {
   display: inline-block;
   padding: 0.8rem 3rem;
-  border: 0.2rem solid var(--red);
-  color: var(--red);
+  border: 0.2rem solid aliceblue;
+  color: aliceblue;
   cursor: pointer;
   font-size: 1.7rem;
   border-radius: 0.5rem;
