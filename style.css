@@ -130,9 +130,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #0a0a5fb5;
+  background: #04045ace;
   padding: 1rem 9%;
-  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); */
 }
 
 header .logo {
@@ -319,7 +318,7 @@ header .navbar a:hover {
 }
 
 .popular .box-container .box .stars i {
-  color: gold;
+  color: green;
   font-size: 1.7rem;
   padding: 1rem 0.1rem;
 }
@@ -497,11 +496,11 @@ header .navbar a:hover {
 }
 
 .order .row form .btn:hover {
-  background: rgba(12, 134, 12, 0.875);
+  background: dodgerblue;
 }
 
 .footer {
-  background: hsla(240, 93%, 18%, 0.931);
+  background: hsla(240, 96%, 18%, 0.931);
   text-align: center;
 }
 
