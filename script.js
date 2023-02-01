@@ -17,6 +17,10 @@ window.onscroll = () => {
   }
 }
 
+function scroll_top() {
+  window.scrollTo(0, 0)
+}
+
 function loader() {
   document.querySelector('.loader-container').classList.add('fade-out')
 }
