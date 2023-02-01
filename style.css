@@ -89,8 +89,8 @@ p {
 .btn {
   display: inline-block;
   padding: 0.8rem 3rem;
-  border: 0.2rem solid aliceblue;
-  color: aliceblue;
+  border: 0.2rem solid dodgerblue;
+  color: dodgerblue;
   cursor: pointer;
   font-size: 1.7rem;
   border-radius: 0.5rem;
@@ -107,7 +107,7 @@ p {
   right: 0;
   width: 0%;
   height: 100%;
-  background: rgba(7, 108, 7, 0.923);
+  background: dodgerblue;
   transition: 0.3s linear;
   z-index: -1;
 }
@@ -527,6 +527,11 @@ header .navbar a:hover {
   object-fit: contain;
 }
 
+.footer .btn {
+  color: aliceblue;
+  border: 1.5px solid aliceblue;
+}
+
 .footer .credit {
   padding: 2.5rem 1rem;
   color: #fff;
@@ -544,7 +549,7 @@ header .navbar a:hover {
   right: 2rem;
   padding: 0.5rem 1.5rem;
   font-size: 4rem;
-  background: var(--red);
+  background: dodgerblue;
   color: #fff;
   border-radius: 0.5rem;
   transition: 1s linear;
