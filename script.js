@@ -17,6 +17,8 @@ window.onscroll = () => {
     document.querySelector('#scroll-top').classList.add('active')
     stickyNavbar.classList.remove('active')
     stickyNavbar.classList.add('sticky_navbar')
+    stickyLogo.classList.remove('logo-img')
+    stickyLogo.classList.add('sticky_logo')
     stickyLinks.forEach((link) => {
       stickyLinks.classList.remove('sticky_links')
       stickyLinks.classList.add('sticky_links_new')
@@ -25,6 +27,8 @@ window.onscroll = () => {
     document.querySelector('#scroll-top').classList.remove('active')
     stickyNavbar.classList.add('active')
     stickyNavbar.classList.remove('sticky_navbar')
+    stickyLogo.classList.add('logo-img')
+    stickyLogo.classList.remove('sticky_logo')
     stickyLinks.forEach((link) => {
       stickyLinks.classList.add('sticky_links')
       stickyLinks.classList.remove('sticky_links_new')
