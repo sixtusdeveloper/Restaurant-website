@@ -44,7 +44,7 @@ section {
 }
 
 .heading span {
-  color: var(--red);
+  color: #047aed;
 }
 
 /* flex */
@@ -157,7 +157,7 @@ header .navbar a {
 }
 
 header .navbar a:hover {
-  color: var(--red);
+  color: #047aed;
 }
 
 #menu-bar {
