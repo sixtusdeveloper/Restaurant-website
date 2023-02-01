@@ -121,7 +121,7 @@ p {
   color: #fff;
 }
 
-header {
+header.active {
   position: fixed;
   top: 0;
   left: 0;
@@ -130,7 +130,20 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: hsla(240, 91%, 18%, 0.897);
+  background: transparent;
+  padding: 1rem 9%;
+}
+
+.sticky_navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: hsla(240, 94%, 13%, 0.95);
   padding: 1rem 9%;
 }
 
@@ -138,12 +151,20 @@ header .logo {
   display: inline-block;
   font-size: 2.5rem;
   font-weight: bolder;
-  color: #666;
+  /* color: #666; */
   text-decoration: none;
   position: relative;
 }
 
 header .logo .logo-img {
+  width: 180px;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  mix-blend-mode: difference;
+}
+
+.sticky_logo {
   width: 180px !important;
   height: 100% !important;
   position: relative !important;
@@ -151,6 +172,12 @@ header .logo .logo-img {
 }
 
 header .navbar a {
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: #333;
+}
+
+.sticky_links_new {
   font-size: 2rem;
   margin-left: 2rem;
   color: #fff;

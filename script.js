@@ -1,5 +1,8 @@
 let menu = document.querySelector('#menu-bar')
 let navbar = document.querySelector('.navbar')
+const stickyNavbar = document.querySelector('#sticky_navbar')
+const stickyLinks = document.querySelector('.sticky_links')
+const stickyLogo = document.querySelector('#sticky_logo')
 
 menu.onclick = () => {
   menu.classList.toggle('fa-times')
@@ -12,8 +15,20 @@ window.onscroll = () => {
 
   if (window.scrollY > 50) {
     document.querySelector('#scroll-top').classList.add('active')
+    stickyNavbar.classList.remove('active')
+    stickyNavbar.classList.add('sticky_navbar')
+    stickyLinks.forEach((link) => {
+      stickyLinks.classList.remove('sticky_links')
+      stickyLinks.classList.add('sticky_links_new')
+    })
   } else {
     document.querySelector('#scroll-top').classList.remove('active')
+    stickyNavbar.classList.add('active')
+    stickyNavbar.classList.remove('sticky_navbar')
+    stickyLinks.forEach((link) => {
+      stickyLinks.classList.add('sticky_links')
+      stickyLinks.classList.remove('sticky_links_new')
+    })
   }
 }
 
