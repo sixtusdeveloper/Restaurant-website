@@ -501,7 +501,7 @@ header .navbar a:hover {
 }
 
 .footer {
-  background: #070765dc;
+  background: hsla(240, 93%, 18%, 0.931);
   text-align: center;
 }
 
@@ -527,7 +527,7 @@ header .navbar a:hover {
   object-fit: contain;
 }
 
-.footer .btn {
+.footer .share .btn {
   color: aliceblue;
   border: 1.5px solid aliceblue;
 }
