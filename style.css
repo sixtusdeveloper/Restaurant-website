@@ -664,7 +664,7 @@ header .navbar a:hover {
     display: block;
     border: 0.2rem solid rgba(0, 0, 0, 0.1);
     border-left: 0.5rem solid var(--red);
-    background: #0a0a0a;
+    background: aliceblue;
   }
 }
 
