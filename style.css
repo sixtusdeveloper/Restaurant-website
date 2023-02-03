@@ -645,7 +645,7 @@ header .navbar a:hover {
   }
 
   header {
-    background: aliceblue !important;
+    background: aliceblue;
   }
 
   header .navbar {
