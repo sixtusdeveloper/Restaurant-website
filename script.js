@@ -17,16 +17,18 @@ window.onscroll = () => {
     document.querySelector('#scroll-top').classList.add('active')
     stickyNavbar.classList.remove('active')
     stickyNavbar.classList.add('sticky_navbar')
-    if (((!stickyLogo).style.mixBlendMode = 'difference')) {
-      stickyLogo.style.mixBlendMode = 'difference'
+    stickyLinks.style.color = '#fff'
+    if ((stickyLogo.style.mixBlendMode = 'difference')) {
+      stickyLogo.style.mixBlendMode = 'normal'
     } else {
-      stickyLogo.style.mixBlendMode = 'difference'
+      stickyLogo.style.mixBlendMode = 'normal'
     }
   } else {
     document.querySelector('#scroll-top').classList.remove('active')
     stickyNavbar.classList.add('active')
     stickyNavbar.classList.remove('sticky_navbar')
     stickyLogo.style.mixBlendMode = 'normal'
+    stickyLinks.style.color = '#333'
   }
 }
 
