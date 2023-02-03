@@ -645,7 +645,7 @@ header .navbar a:hover {
   }
 
   header {
-    background: red;
+    background: aliceblue !important;
   }
 
   header .navbar {
