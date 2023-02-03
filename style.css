@@ -221,6 +221,75 @@ header .navbar a:hover {
   animation: float 3s linear infinite;
 }
 
+.cssbuttons-io-button {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 0.8em 1.5em 0.8em 1.2em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(
+    0deg,
+    rgba(77, 54, 208, 1) 0%,
+    rgba(132, 116, 254, 1) 100%
+  );
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #4d36d0be;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+}
+
+.easy-order {
+  width: 100%;
+  background: inherit;
+  padding: 2rem 0;
+}
+
+.easy-order .easy-order-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 85%;
+  padding: 1rem 0;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.easy-order-col {
+  position: relative;
+}
+
+.easy-order-col h2 {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+  padding: 14px 0;
+}
+
+.easy-order-col p {
+  color: #555;
+  font-size: 0.95rem;
+  font-weight: normal;
+  line-height: 1.7;
+}
+
+.easy-order-col {
+  width: 100%;
+}
+.cssbuttons-io-button svg {
+  margin-right: 8px;
+}
+
+.cssbuttons-io-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #4d36d0be;
+}
+
+.cssbuttons-io-button:active {
+  box-shadow: 0 0.3em 1em -0.5em #4d36d0be;
+}
+
 @keyframes float {
   0%,
   100% {
