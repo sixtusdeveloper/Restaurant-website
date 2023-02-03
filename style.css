@@ -371,7 +371,7 @@ header .navbar a:hover {
 
 .steps .box img {
   border-radius: 50%;
-  width: 260px;
+  width: 200px;
   object-fit: cover;
   border: 1rem solid #fff;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
