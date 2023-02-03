@@ -344,6 +344,18 @@ header .navbar a:hover {
   padding: 1rem 0.1rem;
 }
 
+.step-container {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.step-container .inner_container {
+  width: 80%;
+  position: relative;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
 .steps {
   display: flex;
   flex-wrap: wrap;
