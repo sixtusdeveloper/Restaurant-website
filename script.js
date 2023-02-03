@@ -19,8 +19,8 @@ window.onscroll = () => {
     stickyNavbar.classList.remove('active')
     stickyNavbar.classList.add('sticky_navbar')
     // Logo change
-    stickyLogo.style.display = 'none'
-    stickyLogoTwo.style.display = 'block'
+    stickyLogo.style.display = 'block'
+    stickyLogoTwo.style.display = 'none'
     // Loop through each link and change the color
     for (let Link of Links) {
       Link.style.color = '#fff'
