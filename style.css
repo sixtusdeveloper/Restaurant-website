@@ -350,7 +350,7 @@ header .navbar a:hover {
 }
 
 .step-container .inner_container {
-  width: 80%;
+  width: 90%;
   position: relative;
   padding: 1rem;
   margin: 0 auto;
@@ -371,7 +371,7 @@ header .navbar a:hover {
 
 .steps .box img {
   border-radius: 50%;
-  width: 200px;
+  width: 180px;
   object-fit: cover;
   border: 1rem solid #fff;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
