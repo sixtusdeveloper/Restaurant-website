@@ -121,7 +121,7 @@ p {
   color: #fff;
 }
 
-header.active {
+header {
   position: fixed;
   top: 0;
   left: 0;
@@ -131,7 +131,7 @@ header.active {
   align-items: center;
   justify-content: space-between;
   background: transparent;
-  padding: 1rem 9%;
+  padding: 2rem 9%;
 }
 
 .sticky_navbar {
