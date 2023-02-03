@@ -644,6 +644,10 @@ header .navbar a:hover {
     display: initial;
   }
 
+  header {
+    background: aliceblue;
+  }
+
   header .navbar {
     position: absolute;
     top: 100%;
