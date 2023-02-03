@@ -1,8 +1,9 @@
 let menu = document.querySelector('#menu-bar')
 let navbar = document.querySelector('.navbar')
 const stickyNavbar = document.querySelector('#sticky_navbar')
-const stickyLinks = document.querySelector('.sticky_links')
+const Links = document.querySelectorAll('header .navbar a')
 const stickyLogo = document.querySelector('#sticky_logo')
+const stickyLogoTwo = document.querySelector('#sticky_logo-2')
 
 menu.onclick = () => {
   menu.classList.toggle('fa-times')
@@ -17,18 +18,25 @@ window.onscroll = () => {
     document.querySelector('#scroll-top').classList.add('active')
     stickyNavbar.classList.remove('active')
     stickyNavbar.classList.add('sticky_navbar')
-    stickyLinks.style.color = '#fff'
-    if ((stickyLogo.style.mixBlendMode = 'difference')) {
-      stickyLogo.style.mixBlendMode = 'normal'
-    } else {
-      stickyLogo.style.mixBlendMode = 'normal'
+    // Logo change
+    stickyLogo.style.display = 'none'
+    stickyLogoTwo.style.display = 'block'
+    // Get all the links on the page
+    // Loop through each link and change the color
+    for (let Link of Links) {
+      Links.style.color = '#fff'
     }
   } else {
     document.querySelector('#scroll-top').classList.remove('active')
     stickyNavbar.classList.add('active')
     stickyNavbar.classList.remove('sticky_navbar')
-    stickyLogo.style.mixBlendMode = 'normal'
-    stickyLinks.style.color = '#333'
+    // Logo change
+    stickyLogo.style.display = 'block'
+    stickyLogoTwo.style.display = 'none'
+    // Loop through each link and change the color
+    for (let Link of Links) {
+      Links.style.color = '#333'
+    }
   }
 }
 

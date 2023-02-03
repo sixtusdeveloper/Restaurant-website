@@ -161,7 +161,14 @@ header .logo .logo-img {
   height: 100% !important;
   position: relative !important;
   object-fit: cover !important;
-  mix-blend-mode: difference !important;
+  display: none;
+}
+
+header .logo .logo-img .logo-img-2 .logo-img-2 {
+  width: 180px !important;
+  height: 100% !important;
+  position: relative !important;
+  object-fit: cover !important;
 }
 
 .sticky_logo {
@@ -175,12 +182,6 @@ header .navbar a {
   font-size: 2rem;
   margin-left: 2rem;
   color: #333;
-}
-
-.sticky_links_new {
-  font-size: 2rem;
-  margin-left: 2rem;
-  color: #fff;
 }
 
 header .navbar a:hover {
