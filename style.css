@@ -157,25 +157,18 @@ header .logo {
 }
 
 header .logo .logo-img {
-  width: 180px !important;
-  height: 100% !important;
-  position: relative !important;
-  object-fit: cover !important;
+  width: 180px;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
   display: none;
 }
 
-header .logo .logo-img .logo-img-2 .logo-img-2 {
-  width: 180px !important;
-  height: 100% !important;
-  position: relative !important;
-  object-fit: cover !important;
-}
-
-.sticky_logo {
-  width: 180px !important;
-  height: 100% !important;
-  position: relative !important;
-  object-fit: contain !important;
+header .logo .logo-img-2 {
+  width: 180px;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
 }
 
 header .navbar a {

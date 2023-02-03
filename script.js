@@ -21,10 +21,9 @@ window.onscroll = () => {
     // Logo change
     stickyLogo.style.display = 'none'
     stickyLogoTwo.style.display = 'block'
-    // Get all the links on the page
     // Loop through each link and change the color
     for (let Link of Links) {
-      Links.style.color = '#fff'
+      Link.style.color = '#fff'
     }
   } else {
     document.querySelector('#scroll-top').classList.remove('active')
@@ -35,7 +34,7 @@ window.onscroll = () => {
     stickyLogoTwo.style.display = 'none'
     // Loop through each link and change the color
     for (let Link of Links) {
-      Links.style.color = '#333'
+      Link.style.color = '#333'
     }
   }
 }
