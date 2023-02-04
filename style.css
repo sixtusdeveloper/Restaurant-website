@@ -646,7 +646,7 @@ header .navbar a:hover {
 address h3 {
   color: aliceblue;
   font-size: 2rem;
-  text-transform: normal;
+  text-transform: normal !important;
   font-weight: normal;
   padding: 10px 0;
   text-align: center;
@@ -670,7 +670,7 @@ address .contact_us li {
 address .contact_us li span {
   color: aliceblue;
   font-size: 1.5rem;
-  text-transform: normal;
+  text-transform: normal !important;
   font-weight: normal;
 }
 
