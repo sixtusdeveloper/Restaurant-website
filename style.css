@@ -265,6 +265,9 @@ header .navbar a:hover {
 }
 
 .easy-order-col-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   margin: 0 auto;
   text-align: center;
@@ -293,10 +296,10 @@ header .navbar a:hover {
 
 .easy-order-col-1 .easy-order-content p {
   color: #555;
-  font-size: 1.2rem;
+  font-size: 1.2rem !important;
   font-weight: normal;
-  line-height: 1.7;
-  margin-bottom: 1.2rem;
+  line-height: 1.7 !important;
+  margin-bottom: 1.8rem;
 }
 
 .cssbuttons-io-button svg {
