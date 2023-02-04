@@ -251,6 +251,7 @@ header .navbar a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 85%;
+  margin: 0 auto;
   padding: 1rem 0;
   gap: 1.5rem;
   position: relative;
@@ -274,6 +275,7 @@ header .navbar a:hover {
 
 .easy-order-col img {
   width: 70%;
+  height: 70%;
   object-fit: cover;
   position: relative;
   align-items: center;
