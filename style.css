@@ -775,11 +775,13 @@ header .navbar a:hover {
     width: 100%;
   }
 
-  .easy-order-col-1 {
+  .easy-order-row .easy-order-col-1 {
     grid-column: 2;
+    grid-row: 2;
   }
 
-  .easy-order-col-2 {
+  .easy-order-row .easy-order-col-2 {
     grid-column: 1;
+    grid-row: 1;
   }
 }
