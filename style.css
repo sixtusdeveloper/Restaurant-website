@@ -264,6 +264,7 @@ header .navbar a:hover {
   position: relative;
 }
 
+.easy-order-col-2,
 .easy-order-col-2 {
   width: 100%;
 }
@@ -273,32 +274,29 @@ header .navbar a:hover {
   width: 100%;
 }
 
-.easy-order-col img {
-  width: 70%;
-  height: 70%;
+.easy-order-col-2 img {
+  width: 60%;
+  /* height: 70%; */
   object-fit: cover;
   position: relative;
   align-items: center;
   text-align: center;
 }
 
-.easy-order-col h2 {
+.easy-order-col-1 h2 {
   font-size: 2rem;
   color: #333;
   font-weight: bold;
   padding: 14px 0;
 }
 
-.easy-order-col p {
+.easy-order-col-1 p {
   color: #555;
   font-size: 0.95rem;
   font-weight: normal;
   line-height: 1.7;
 }
 
-.easy-order-col {
-  width: 100%;
-}
 .cssbuttons-io-button svg {
   margin-right: 8px;
 }
