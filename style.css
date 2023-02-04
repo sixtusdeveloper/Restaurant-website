@@ -248,19 +248,28 @@ header .navbar a:hover {
 }
 
 .easy-order .easy-order-row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   width: 85%;
   padding: 1rem 0;
   gap: 1.5rem;
   position: relative;
 }
 
-.easy-order-col {
-  flex: 0 0 50%;
-  max-width: 50%;
+.easy-order-col-1 {
+  width: 100%;
+  padding: 14px;
+  display: flex;
   position: relative;
+}
+
+.easy-order-col-2 {
+  width: 100%;
+}
+
+.easy-order-content {
+  position: relative;
+  width: 100%;
 }
 
 .easy-order-col img {
