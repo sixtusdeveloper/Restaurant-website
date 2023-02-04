@@ -257,10 +257,18 @@ header .navbar a:hover {
   position: relative;
 }
 
-.easy-order-col-1 {
-  flex: 0 0 65%;
-  max-width: 65%;
+.easy-order-col {
+  flex: 0 0 50%;
+  max-width: 50%;
   position: relative;
+}
+
+.easy-order-col img {
+  width: 70%;
+  object-fit: cover;
+  position: relative;
+  align-items: center;
+  text-align: center;
 }
 
 .easy-order-col h2 {
