@@ -761,7 +761,7 @@ header .navbar a:hover {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 498px) {
   html {
     font-size: 50%;
   }
