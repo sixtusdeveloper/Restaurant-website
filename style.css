@@ -267,6 +267,7 @@ header .navbar a:hover {
 .easy-order-col-2,
 .easy-order-col-2 {
   width: 100%;
+  margin: 0 auto;
 }
 
 .easy-order-content {
@@ -276,7 +277,6 @@ header .navbar a:hover {
 
 .easy-order-col-2 img {
   width: 60%;
-  /* height: 70%; */
   object-fit: cover;
   position: relative;
   align-items: center;
@@ -284,17 +284,18 @@ header .navbar a:hover {
 }
 
 .easy-order-col-1 h2 {
-  font-size: 2rem;
-  color: #333;
+  font-size: 3.2rem;
+  color: #555;
   font-weight: bold;
   padding: 14px 0;
 }
 
 .easy-order-col-1 p {
   color: #555;
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   font-weight: normal;
   line-height: 1.7;
+  margin-bottom: 1.2rem;
 }
 
 .cssbuttons-io-button svg {
