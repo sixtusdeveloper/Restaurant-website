@@ -277,8 +277,8 @@ header .navbar a:hover {
 }
 
 .easy-order-col-1 .easy-order-content p {
-  color: #7777;
-  font-size: 1.5rem !important;
+  color: #333;
+  font-size: 1.7rem !important;
   font-weight: normal;
   line-height: 1.7 !important;
   margin-bottom: 1.8rem;
@@ -534,7 +534,7 @@ header .navbar a:hover {
 }
 
 .review .box-container .box h3 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: #333;
   padding: 0.5rem 0;
 }
@@ -546,7 +546,7 @@ header .navbar a:hover {
 }
 
 .review .box-container .box p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: #555;
   padding: 1rem 0;
 }
