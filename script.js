@@ -53,7 +53,9 @@ function fadeOut() {
 
 window.onload = fadeOut()
 
-// When click on the download button redirect user to play store
-function redirect_url_store() {
-  window.location.href = 'https://play.google.com/store/apps'
+document.getElementById('redirect_url_store').onclick = function () {
+  window.open(
+    (window.location.href = 'https://play.google.com/store/apps'),
+    '_blank',
+  )
 }
