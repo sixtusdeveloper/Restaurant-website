@@ -265,14 +265,13 @@ header .navbar a:hover {
   width: 60%;
   object-fit: cover;
   position: relative;
-  /* align-items: center; */
   text-align: center;
   margin: 0 auto;
 }
 
 .easy-order-col-1 .easy-order-content h2 {
   font-size: 3.2rem;
-  color: #555;
+  color: #333;
   font-weight: bold;
   padding: 14px 0;
 }
@@ -535,7 +534,7 @@ header .navbar a:hover {
 }
 
 .review .box-container .box h3 {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   color: #333;
   padding: 0.5rem 0;
 }
@@ -547,7 +546,7 @@ header .navbar a:hover {
 }
 
 .review .box-container .box p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #555;
   padding: 1rem 0;
 }
