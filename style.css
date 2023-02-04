@@ -257,7 +257,9 @@ header .navbar a:hover {
   position: relative;
 }
 
-.easy-order-col {
+.easy-order-col-1 {
+  flex: 0 0 65%;
+  max-width: 65%;
   position: relative;
 }
 
