@@ -640,7 +640,7 @@ header .navbar a:hover {
   width: 100%;
   position: relative;
   text-align: Center;
-  margin: 1.8rem auto;
+  margin: 1rem auto;
 }
 
 address h3 {
@@ -648,7 +648,7 @@ address h3 {
   font-size: 2rem;
   text-transform: normal;
   font-weight: normal;
-  padding: 1rem 0;
+  padding: 10px 0;
   text-align: center;
   margin: 0 auto;
 }
@@ -665,7 +665,7 @@ address .contact_us {
 
 address .contact_us li {
   list-style-type: none;
-  margin: 14px auto;
+  margin: 10px auto;
 }
 address .contact_us li span {
   color: aliceblue;
@@ -677,7 +677,7 @@ address .contact_us li span {
 address .contact_us li span i.fas {
   font-size: 2.5rem;
   color: #b4becb;
-  margin-right: 14px;
+  margin-right: 10px;
 }
 
 .footer .share .btn {
