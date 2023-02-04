@@ -666,11 +666,12 @@ address .contact_us {
 address .contact_us li {
   list-style-type: none;
   margin: 10px auto;
+  text-transform: none !important;
 }
 address .contact_us li span {
   color: aliceblue;
   font-size: 1.5rem;
-  text-transform: normal !important;
+  text-transform: none !important;
   font-weight: normal;
 }
 
