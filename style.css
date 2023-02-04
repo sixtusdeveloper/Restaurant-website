@@ -628,12 +628,48 @@ header .navbar a:hover {
 
 /* footer-logo-img */
 .footer .stetch-item .footer-logo-img {
-  display: inline-block;
+  display: block;
   width: 140px;
   top: 1rem;
   position: relative;
   height: 50px;
   object-fit: contain;
+}
+
+.footer address {
+  width: 100%;
+  position: relative;
+  text-align: Center;
+  margin: 1.8rem auto;
+}
+
+address h3 {
+  color: aliceblue;
+  font-size: 2.6rem;
+  font-weight: normal;
+  padding: 1rem 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+address .contact_us {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+address .contact_us li {
+  list-style-type: none;
+  margin: 14px auto;
+}
+address .contact_us li span {
+  color: aliceblue;
+  font-size: 2rem;
+  font-weight: normal;
 }
 
 .footer .share .btn {
