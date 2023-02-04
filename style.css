@@ -277,8 +277,8 @@ header .navbar a:hover {
 }
 
 .easy-order-col-1 .easy-order-content p {
-  color: #555;
-  font-size: 1.2rem !important;
+  color: #7777;
+  font-size: 1.5rem !important;
   font-weight: normal;
   line-height: 1.7 !important;
   margin-bottom: 1.8rem;
@@ -359,7 +359,7 @@ header .navbar a:hover {
 }
 
 .speciality .box-container .box .content p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   color: #666;
   padding: 1rem 0;
 }
