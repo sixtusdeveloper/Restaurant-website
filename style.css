@@ -284,14 +284,14 @@ header .navbar a:hover {
   margin: 0 auto;
 }
 
-.easy-order-col-1 h2 {
+.easy-order-col-1 .easy-order-content h2 {
   font-size: 3.2rem;
   color: #555;
   font-weight: bold;
   padding: 14px 0;
 }
 
-.easy-order-col-1 p {
+.easy-order-col-1 .easy-order-content p {
   color: #555;
   font-size: 1.2rem;
   font-weight: normal;
