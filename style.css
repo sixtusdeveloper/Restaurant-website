@@ -590,7 +590,7 @@ header .navbar a:hover {
 
 .form-group .error-msg {
   color: #ff4422;
-  font-size: 0.91rem;
+  font-size: 1.2rem;
   font-weight: normal;
   padding: 3px;
   visibility: hidden;
@@ -602,12 +602,12 @@ header .navbar a:hover {
 }
 
 /* Error border */
-.form-group .error.form-group .form-control {
+.error.form-group .form-control {
   border: 1px solid #b4becb;
 }
 
 /* Success border */
-.form-group .success.form-group .form-control {
+.success.form-group .form-control {
   border: 1px solid lightseagreen;
 }
 
