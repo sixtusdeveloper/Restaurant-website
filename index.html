@@ -537,24 +537,75 @@
 
         <form action="">
           <div class="inputBox">
-            <input type="text" placeholder="Enter your name" />
-            <input type="email" placeholder="Enter your email address" />
+            <div class="form-group">
+              <input
+                type="text"
+                placeholder="Enter your name"
+                id="name"
+                class="form-control"
+                name="name"
+                autocomplete="off"
+              />
+              <span class="error-msg" id="error-msg"></span>
+            </div>
+            <div class="form-group">
+              <input
+                type="email"
+                placeholder="Enter your email address"
+                id="email"
+                class="form-control"
+                name="email"
+                autocomplete="off"
+              />
+              <span class="error-msg" id="error-msg"></span>
+            </div>
           </div>
-
           <div class="inputBox">
-            <input type="number" placeholder="number" />
-            <input type="text" placeholder="Enter the food name" />
+            <div class="form-group">
+              <input
+                type="number"
+                placeholder="number of items"
+                class="form-control"
+                id="order-count"
+                name="order-count"
+                autocomplete="off"
+              />
+              <span class="error-msg" id="error-msg"></span>
+            </div>
+
+            <input
+              type="text"
+              placeholder="Enter the food name"
+              id="order-name"
+              class="form-control"
+              name="order-name"
+              autocomplete="off"
+            />
+            <span class="error-msg" id="error-msg"></span>
           </div>
 
-          <textarea
-            placeholder="Enter your address address"
-            name=""
-            id=""
-            cols="30"
-            rows="10"
-          ></textarea>
+          <div class="form-group">
+            <textarea
+              placeholder="Enter your address address"
+              name="address"
+              id="address"
+              cols="30"
+              class="form-control textarea"
+              rows="10"
+              autocomplete="off"
+            ></textarea>
+            <span class="error-msg" id="error-msg"></span>
+          </div>
 
-          <input type="submit" value="order now" class="btn" />
+          <div class="form-control">
+            <input
+              type="submit"
+              value="order now"
+              id="submit"
+              name="submit"
+              class="btn"
+            />
+          </div>
         </form>
       </div>
     </section>

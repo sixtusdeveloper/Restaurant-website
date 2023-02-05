@@ -588,10 +588,36 @@ header .navbar a:hover {
   flex-wrap: wrap;
 }
 
-.order .row form .inputBox input,
-.order .row form textarea {
-  padding: 1rem;
+.error-msg {
+  color: #ff4422;
+  font-size: 0.91rem;
+  font-weight: normal;
+  padding: 3px;
+  visibility: hidden;
+}
+
+/* input contains error */
+.error .error-msg {
+  visibility: visible;
+}
+
+/* Error border */
+.error.form-group .form-control {
+  border: 1px solid #b4becb;
+}
+
+/* Success border */
+.success.form-group .form-control {
+  border: 1px solid lightseagreen;
+}
+
+.order .row form .inputBox .form-group {
   margin: 1rem 0;
+}
+
+.order .row form .inputBox .form-group .form-control,
+.order .row form .form-group .form-control {
+  padding: 1rem;
   font-size: 1.7rem;
   color: #333;
   text-transform: none;
@@ -600,7 +626,7 @@ header .navbar a:hover {
   width: 49%;
 }
 
-.order .row form textarea {
+.order .row form .inputBox .form-group .form-control.textarea {
   width: 100%;
   resize: none;
   height: 15rem;
