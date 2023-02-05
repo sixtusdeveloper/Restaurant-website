@@ -613,6 +613,7 @@ header .navbar a:hover {
 
 .order .row form .inputBox .form-group {
   margin: 1rem 0;
+  width: 49%;
 }
 
 .order .row form .inputBox .form-group .form-control,
@@ -623,7 +624,8 @@ header .navbar a:hover {
   text-transform: none;
   border: 0.1rem solid rgba(0, 0, 0, 0.3);
   border-radius: 0.5rem;
-  width: 49%;
+  width: 100%;
+  position: relative;
 }
 
 .order .row form .inputBox .form-group .form-control.textarea {
