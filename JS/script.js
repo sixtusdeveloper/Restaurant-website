@@ -60,32 +60,29 @@ document.getElementById('redirect_url_store').onclick = function () {
   )
 }
 
-// Jquery
-$(document).ready(function () {
-  var scrollLink = $('.smooth_links')
+// Auto indicate active section from the section link script
+const sections = document.querySelectorAll('section')
+const navLinks = document.querySelectorAll('navbar a')
 
-  // Smooth scrolling
-  scrollLink.click(function (e) {
-    e.preventDefault()
-    $('body,html').animate(
-      {
-        scrollTop: $(this.hash).offset().top,
-      },
-      100,
-    )
+const options = {
+  rootMargin: '-50% 0% -50% 0%',
+  threshold: 0,
+}
+
+const observer = new IntersectionObserver((entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      const id = entry.target.getAttribute('id')
+      navLinks.forEach((link) => {
+        link.classList.remove('active_links')
+        if (link.getAttribute('href') === `#${id}`) {
+          link.classList.add('active_links')
+        }
+      })
+    }
   })
+}, options)
 
-  // Active link switching
-  $(window).scroll(function () {
-    var scrollbarLocation = $(this).scrollTop()
-
-    scrollLink.each(function () {
-      var sectionOffset = $(this.hash).offset().top - 10
-
-      if (sectionOffset <= scrollbarLocation) {
-        $(this).parent().addClass('active_links')
-        $(this).parent().siblings().removeClass('active_links')
-      }
-    })
-  })
+sections.forEach((section) => {
+  observer.observe(section)
 })
