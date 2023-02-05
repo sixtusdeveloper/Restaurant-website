@@ -668,19 +668,14 @@ header .navbar a:hover {
   position: relative;
 }
 
-.address .contact_us li {
-  list-style-type: none;
-  margin: 10px auto;
-  text-transform: none !important;
-}
-.address .contact_us li span {
+.address .contact_us span {
   color: aliceblue;
   font-size: 1.5rem;
   text-transform: none !important;
   font-weight: normal;
 }
 
-.address .contact_us li span i.fas {
+.address .contact_us span i.fas {
   font-size: 2.5rem;
   color: #b4becb;
   margin-right: 10px;
