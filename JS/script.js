@@ -62,7 +62,7 @@ document.getElementById('redirect_url_store').onclick = function () {
 
 // Auto indicate active section from the section link script
 const sections = document.querySelectorAll('section')
-const navLinks = document.querySelectorAll('navbar a')
+const navLinks = document.querySelectorAll('.navbar a')
 
 const options = {
   rootMargin: '-50% 0% -50% 0%',
