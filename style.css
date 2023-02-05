@@ -164,8 +164,8 @@ header .navbar a:hover {
   color: #047aed;
 }
 
-.active_links {
-  color: orangered;
+.smooth_links.active_links {
+  color: orangered !important;
 }
 
 #menu-bar {
