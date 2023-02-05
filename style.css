@@ -588,7 +588,7 @@ header .navbar a:hover {
   flex-wrap: wrap;
 }
 
-.error-msg {
+.form-group .error-msg {
   color: #ff4422;
   font-size: 0.91rem;
   font-weight: normal;
@@ -597,17 +597,17 @@ header .navbar a:hover {
 }
 
 /* input contains error */
-.error .error-msg {
+.form-group .error .error-msg {
   visibility: visible;
 }
 
 /* Error border */
-.error.form-group .form-control {
+.form-group .error.form-group .form-control {
   border: 1px solid #b4becb;
 }
 
 /* Success border */
-.success.form-group .form-control {
+.form-group .success.form-group .form-control {
   border: 1px solid lightseagreen;
 }
 
