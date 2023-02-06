@@ -53,7 +53,7 @@ function validateForm() {
     setError(Email, 'enter a valid email address!')
   }
 
-  // Userphone
+  // OrderCount
   if (orderCount.value.trim() == '') {
     setError(orderCount, 'field must not be empty!')
   } else if (isNaN(Items)) {
