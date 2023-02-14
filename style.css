@@ -839,11 +839,11 @@ header .navbar a:hover {
     font-size: 50%;
   }
 
-  .order .row form .inputBox input, .order .row form .inputBox .form-group {
-  margin: 1rem 0;
-  width: 100% !important;
+  .order .row form .inputBox input,
+  .order .row form .inputBox .form-group {
+    margin: 1rem 0;
+    width: 100% !important;
   }
-
 
   .easy-order .easy-order-row {
     grid-template-columns: 1fr;
