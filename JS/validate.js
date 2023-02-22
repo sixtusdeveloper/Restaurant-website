@@ -53,7 +53,7 @@ function validateForm() {
   }
 
   // OrderCount
-  if (orderCount.value.trim() == '') {
+  if (orderCount.value === '') {
     setError(orderCount, 'field must not be empty!')
   } else if (isNaN(Items)) {
     setError(orderCount, 'Select a valid number of order')
