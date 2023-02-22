@@ -12,7 +12,6 @@ form.addEventListener('submit', (event) => {
   validateForm()
   if (isFormValid() === true) {
     form.submit()
-    successSubmission()
   } else {
     event.preventDefault()
   }
