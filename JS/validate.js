@@ -11,7 +11,8 @@ let submitBtn = document.querySelector('#submit')
 form.addEventListener('submit', (event) => {
   validateForm()
   if (isFormValid() === true) {
-    form.submit()
+    // form.submit()
+    preventDefault()
   } else {
     event.preventDefault()
   }
