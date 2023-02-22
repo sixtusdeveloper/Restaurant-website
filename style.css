@@ -588,7 +588,7 @@ header .navbar a:hover {
   flex-wrap: wrap;
 }
 
-.form-group .error-msg {
+.error-msg {
   color: #ff4422;
   font-size: 1.2rem;
   font-weight: normal;
@@ -597,7 +597,7 @@ header .navbar a:hover {
 }
 
 /* input contains error */
-.form-group .error .error-msg {
+.error .error-msg {
   visibility: visible;
 }
 
