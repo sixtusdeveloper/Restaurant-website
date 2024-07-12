@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./success.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Login system</title>
+  </head>
+  <body>
+    <section>
+      <div class="logo">
+        <img src="./img/logo-login-system.png" alt="Logo" />
+      </div>
+      <div class="success-msg">
+        <span class="span"><i class="fas fa-check"></i></span>
+        <h1>Thank you!</h1>
+        <p>You've successfully signed up.</p>
+        <p>Name: <span style="color: aliceblue; letter-spacing: 1px;" id="name"></span></p>
+        <p>Email: <span style="color: aliceblue; letter-spacing: 1px;" id="email"></span></p>
+        <p>Number of Items: <span style="color: aliceblue; letter-spacing: 1px;" id="orderCount"></span></p>
+        <p>Food Name: <span style="color: aliceblue; letter-spacing: 1px;" id="orderName"></span></p>
+        <p>Address: <span style="color: aliceblue; letter-spacing: 1px;" id="userAddress"></span></p>
+        <a class="okay-btn" href="./index.html"><button type="button">OKAY</button></a>
+      </div>
+    </section>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        // Retrieve data from localStorage
+        const name = localStorage.getItem("name");
+        const email = localStorage.getItem("email");
+        const orderCount = localStorage.getItem("orderCount");
+        const orderName = localStorage.getItem("orderName");
+        const userAddress = localStorage.getItem("userAddress");
+
+        // Display data on the success page
+        document.getElementById("name").textContent = name;
+        document.getElementById("email").textContent = email;
+        document.getElementById("orderCount").textContent = orderCount;
+        document.getElementById("orderName").textContent = orderName;
+        document.getElementById("userAddress").textContent = userAddress;
+      });
+    </script>
+  </body>
+</html>
